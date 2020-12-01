@@ -16,8 +16,5 @@ public class DemoSpringsecurityApplication {
     }
 
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+
 }

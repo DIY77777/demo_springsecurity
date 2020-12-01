@@ -27,5 +27,11 @@ public class HelloController {
     public String hello() {
         return "hello";
     }
+
+    @GetMapping("/index")
+    public String index() {
+        return "hello index";
+    }
+
 }
 
